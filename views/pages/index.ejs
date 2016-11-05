@@ -4,19 +4,17 @@
   <style>
   body{
     background-image: url(/images/bamboo.png);
+    text-align: center;
+  }
+  div.box {
+    margin-top: 180px;
   }
   div.text {
-  display: none;
-  float: left;
-  }
-  #one {
-  background: #f00;
-  }
-  #two {
-  background: #0f0;
-  }
-  #three {
-  background: #00f;
+    display: none;
+    text-align:center;
+    color: white;
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
   }
   </style>
   <% include ../partials/header.ejs %>
@@ -24,20 +22,14 @@
 </head>
 
 <body>
-
+<div class="box"> </div>
 <audio src="/audio/narration.mp3" autoplay></audio>
+
 <div class="text" id="one"><h1>Take a slow deep breath</h1></div>
-<div class="text" id="two"><h1>and let’s hold it in our belly</h1></div>
-<div class="text" id="three"><h1>and then gently release it</h1></div>
-<div class="text" id="four"><h1>and now hold that</h1></div>
+<div class="text" id="two"><h1>And let’s hold it in our belly</h1></div>
+<div class="text" id="three"><h1>And then gently release it</h1></div>
+<div class="text" id="four"><h1>And now hold that</h1></div>
 <div class="text" id="five"><h1>So that was 16 seconds</h1></div>
-
-
-
-
-
-
-
 
 <script>
 $( 'document' ).ready(function() {
