@@ -1,0 +1,27 @@
+{
+  "name": "a_dot_in_time",
+  "version": "1.0.0",
+  "description": "meditation game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobyfee/aDotInTime.git"
+  },
+  "keywords": [
+    "meditation",
+    "game"
+  ],
+  "author": "WeCodeHackathon team #2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobyfee/aDotInTime/issues"
+  },
+  "homepage": "https://github.com/tobyfee/aDotInTime#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}
