@@ -15,8 +15,8 @@ Produced as part of the [We Code Hackathon](https://we-code-hackathon-2016.devpo
 
 ## Credit
 
-Chingyan Hsieh
-Soyung Kim
-Aslana Kobzeff
-Yvonne Peng - Team Lead
-Toby Fee
+* Chingyan Hsieh
+* Soyung Kim
+* Aslana Kobzeff
+* Yvonne Peng - Team Lead
+* Toby Fee
